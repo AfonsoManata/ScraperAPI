@@ -54,7 +54,7 @@ Response (JSON):
    ```
    python3 -m venv venv
    ```
-7. **Activate the virtual environment**  
+6. **Activate the virtual environment**  
    - On macOS/Linux:
      ```
      source venv/bin/activate
@@ -64,18 +64,19 @@ Response (JSON):
      venv\Scripts\activate
      ```
 
-8. **Install dependencies**  
+7. **Install dependencies**  
   ```
    pip install -r requirements.txt  
   ```
-10. **Run the FastAPI server**  
+8. **Run the FastAPI server**  
   ```
   uvicorn src.main:app --reload
   ```
-   The API will be available at http://127.0.0.1:8000
+   The API will be available at   http://127.0.0.1:8000
+   
    <img width="1096" height="247" alt="image" src="https://github.com/user-attachments/assets/d7b73aa7-4787-49a3-bd1d-ad79f20fd0d6" />
 
-12. **Test API**  
+9. **Test API**  
    - Add more tests and use pytest
    - http://127.0.0.1:8000/docs
 <img width="1048" height="888" alt="image" src="https://github.com/user-attachments/assets/96955f4c-cfd7-4040-b283-76087cc129df" />
