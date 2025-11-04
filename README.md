@@ -76,6 +76,8 @@ Response (JSON):
    
    <img width="1096" height="247" alt="image" src="https://github.com/user-attachments/assets/d7b73aa7-4787-49a3-bd1d-ad79f20fd0d6" />
 
+
+
 7. **Test API**  
    - Add more tests and use pytest
    - FastAPI UI for testing: http://127.0.0.1:8000/docs
