@@ -9,7 +9,6 @@ GET /aptoide?package_name=<package_id>
 
 This endpoint:
   - Accepts a package name as a query parameter (e.g. com.facebook.katana).
-  - Scrapes or fetch package details from Aptoide.
   - Returns all relevant metadata about the app in JSON format.
 
 ## 🧾 Example
