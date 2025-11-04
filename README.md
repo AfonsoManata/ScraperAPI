@@ -2,13 +2,12 @@
 
 Python-based API that scrapes package data from the Aptoide app store (https://en.aptoide.com/) and exposes it through a REST endpoint.
 
-
-1 - This API exposes an endpoint:
+This API exposes an endpoint:
 ```
 GET /aptoide?package_name=<package_id>
 ```
 
-2 - This endpoint:
+This endpoint:
   - Accepts a package name as a query parameter (e.g. com.facebook.katana).
   - Scrapes or fetch package details from Aptoide.
   - Returns all relevant metadata about the app in JSON format.
