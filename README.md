@@ -78,10 +78,10 @@ Response (JSON):
 
 7. **Test API**  
    - Add more tests and use pytest
-   - http://127.0.0.1:8000/docs
-<img width="1048" height="888" alt="image" src="https://github.com/user-attachments/assets/96955f4c-cfd7-4040-b283-76087cc129df" />
+   - FastAPI UI for testing: http://127.0.0.1:8000/docs
 
-After completing these steps, your Aptoide Scraper API should be running locally and ready to handle requests.
+  <img width="1048" height="888" alt="image" src="https://github.com/user-attachments/assets/96955f4c-cfd7-4040-b283-76087cc129df" />
+
 
 ## 🧠 **Design Decisions & Scalability Approaches**
 - Rate Limiter.
