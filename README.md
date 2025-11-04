@@ -69,6 +69,7 @@ Response (JSON):
   ```
 6. **Run the FastAPI server**  
   ```
+  cd src
   uvicorn src.main:app --reload
   ```
    The API will be available at   http://127.0.0.1:8000
