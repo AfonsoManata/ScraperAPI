@@ -2,6 +2,8 @@ import pytest
 from httpx import AsyncClient
 from src.main import app
 
+# This tests are just a starting point, in real life the testing needs to go deeper
+
 @pytest.mark.asyncio
 async def test_aptoide_missing_param():
     """
