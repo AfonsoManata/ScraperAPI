@@ -90,7 +90,7 @@ Response (JSON):
 - Versioning.
 - Descriptions and good documentation.
 
-** 🎯 **Future Scalability Plans**
+## ** 🎯 **Future Scalability Plans**
 - Add caching (e.g., Redis) to avoid repeated scrapes for the same package.
 - Deploy using containerization (Docker + Kubernetes) for scalability and reliability in production.
 - Add more tests
